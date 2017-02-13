@@ -1,4 +1,4 @@
-
+//Author: Dinesh
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -41,7 +41,7 @@ public class ConnectToDB extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("servlet2");
 			rd.forward(request, response);
 		}else{
-			pw.print("Sorry username or password error");  
+			pw.print("Sorry username or password error!!!");  
 			RequestDispatcher rd = request.getRequestDispatcher("index.html");
 			rd.include(request, response);
 		}
